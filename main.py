@@ -28,6 +28,7 @@ def send_discord(msg, link):
     requests.post(webhook_url, json=data)
 
 def main():
+    send_discord("✅ 測試成功！機器人與 Discord 連線正常，我準備好去抓 5700X3D 了！", "https://www.ptt.cc/bbs/HardwareSale/index.html")
     # 讀取歷史紀錄
     seen = set()
     if os.path.exists(HISTORY_FILE):

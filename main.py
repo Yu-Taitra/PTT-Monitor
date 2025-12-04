@@ -10,7 +10,7 @@ webhook_url = os.environ.get("DISCORD_WEBHOOK_URL")
 user_id = os.environ.get("DISCORD_USER_ID")
 
 # 設定關鍵字
-KEYWORDS = ["5700X3D", "5700x3d"]
+KEYWORDS = ["4070"]
 HISTORY_FILE = "history.json"
 
 def send_discord(msg, link):
